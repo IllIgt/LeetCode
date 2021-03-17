@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include "solution.h"
+#include "march_solution.h"
 #include <unordered_set>
 
 bool Solution::hasAllCodes(const string& s, int k) {

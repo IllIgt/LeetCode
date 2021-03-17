@@ -1,9 +1,6 @@
 #include <iostream>
-//#include "march_challenge/bi_trees_with_factors.h"
-//#include "march_challenge/solution.h"
-#include "out_of_challenge/solution.h"
-#include <memory>
-#include <iostream>
+#include "out_of_challenge_solution.h"
+
 
 using namespace std;
 int main() {

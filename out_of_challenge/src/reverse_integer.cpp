@@ -1,7 +1,7 @@
 //
 // Created by alexey on 17.03.2021.
 //
-#include "solution.h"
+#include "out_of_challenge_solution.h"
 #include <iostream>
 
 using namespace std;

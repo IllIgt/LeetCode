@@ -1,7 +1,7 @@
 //
 // Created by alexey on 16.03.2021.
 //
-#include "solution.h"
+#include "march_solution.h"
 #include <iostream>
 #include  <algorithm>
 
