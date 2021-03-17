@@ -2,7 +2,7 @@
 // Created by alexey on 13.03.2021.
 //
 #include <algorithm>
-#include "bi_trees_with_factors.h"
+#include "solution.h"
 #include <unordered_map>
 
 int Solution::numFactoredBinaryTrees(vector<int> &arr) {

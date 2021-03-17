@@ -2,7 +2,7 @@
 // Created by alexey on 15.03.2021.
 //
 
-#include "swaping_nodes_ll.h"
+#include "solution.h"
 
 ListNode *Solution::swapNodes(ListNode *head, int k) {
 	{

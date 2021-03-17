@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include "binary_codes_of_2.h"
+#include "solution.h"
 #include <unordered_set>
 
 bool Solution::hasAllCodes(const string& s, int k) {
