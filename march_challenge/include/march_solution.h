@@ -22,15 +22,24 @@ private:
 	unordered_map<string, string> tinyURLs;
 	int ID = 0;
 	string dName = "http://tinyurl.com/";
+	double radius;
+	double x_center;
+	double y_center;
 
 public:
+	Solution()= default;
+	Solution(double radius, double x_center, double y_center) {
+		radius = radius;
+		x_center = x_center;
+		y_center = y_center;
+	}
+	vector<double> randPoint();
 	int numFactoredBinaryTrees(vector<int> &arr);
 	static bool hasAllCodes(const string& s, int k);
 	ListNode* swapNodes(ListNode* head, int k);
-	// Encodes a URL to a shortened URL.
 	string encode(string longUrl);
-	// Decodes a shortened URL to its original URL.
 	string decode(string shortUrl);
 	int maxProfit(vector<int>& prices, int fee);
+
 };
 #endif //LEETCODE_SOLUTION_H
