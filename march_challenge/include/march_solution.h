@@ -22,16 +22,16 @@ private:
 	unordered_map<string, string> tinyURLs;
 	int ID = 0;
 	string dName = "http://tinyurl.com/";
-	double radius;
-	double x_center;
-	double y_center;
+	double _radius;
+	double _x_center;
+	double _y_center;
 
 public:
 	Solution()= default;
 	Solution(double radius, double x_center, double y_center) {
-		radius = radius;
-		x_center = x_center;
-		y_center = y_center;
+		_radius = radius;
+		_x_center = x_center;
+		_y_center = y_center;
 	}
 	vector<double> randPoint();
 	int numFactoredBinaryTrees(vector<int> &arr);
@@ -40,6 +40,7 @@ public:
 	string encode(string longUrl);
 	string decode(string shortUrl);
 	int maxProfit(vector<int>& prices, int fee);
+	int wiggleMaxLength(vector<int>& nums);
 
 };
 #endif //LEETCODE_SOLUTION_H

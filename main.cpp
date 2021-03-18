@@ -4,16 +4,18 @@
 
 using namespace std;
 int main() {
-	Solution solution = Solution(1.0, 0.0, 0.0);
+	Solution solution;
 	//auto *node = new ListNode(2);
 	//auto *node2 = new ListNode(1, node);
 	//vector<int> prices{9,8,7,1,2};
 	//cout << solution.encode("aasdasdaaaa") << endl;
 	//cout << solution.maxProfit(prices, 3) << endl;
-	vector<double> result = solution.randPoint();
-	for(const auto &item : result){
-		cout << item << endl;
-	}
+	//	vector<double> result = solution.randPoint();
+	//	for(const auto &item : result){
+	//		cout << item << endl;
+//	}
+	vector<int> vect{};
+	cout << solution.wiggleMaxLength(vect) << endl;
 
 	return 0;
 }
