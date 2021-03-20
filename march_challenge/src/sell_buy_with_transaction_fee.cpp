@@ -2,7 +2,6 @@
 // Created by alexey on 16.03.2021.
 //
 #include "march_solution.h"
-#include <iostream>
 #include  <algorithm>
 
 using namespace ::std;

@@ -1,21 +1,6 @@
 #include <iostream>
-//#include "out_of_challenge_solution.h"
-#include "march_solution.h"
 
-using namespace std;
 int main() {
-	Solution solution;
-	//auto *node = new ListNode(2);
-	//auto *node2 = new ListNode(1, node);
-	//vector<int> prices{9,8,7,1,2};
-	//cout << solution.encode("aasdasdaaaa") << endl;
-	//cout << solution.maxProfit(prices, 3) << endl;
-	//	vector<double> result = solution.randPoint();
-	//	for(const auto &item : result){
-	//		cout << item << endl;
-//	}
-	vector<int> vect{};
-	cout << solution.wiggleMaxLength(vect) << endl;
-
+	std::cout <<  "Feel free to use this repository. This main file wishes you a nice day." << std::endl;
 	return 0;
 }

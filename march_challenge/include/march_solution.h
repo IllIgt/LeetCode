@@ -41,6 +41,7 @@ public:
 	string decode(string shortUrl);
 	int maxProfit(vector<int>& prices, int fee);
 	int wiggleMaxLength(vector<int>& nums);
+	bool canVisitAllRooms(vector<vector<int>>& rooms);
 
 };
 #endif //LEETCODE_SOLUTION_H
